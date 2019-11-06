@@ -37,6 +37,6 @@ if len(PicInfo) > 2:
     for i in range(len(PicInfo)-1):
         for j in range(i+1, len(PicInfo)):
             if PicInfo[i].phash - PicInfo[j].phash < 10:
-                print(PicInfo[i].phash - PicInfo[j].phash)
+                #print(PicInfo[i].phash - PicInfo[j].phash)
                 PicInfo[i].move()
                 PicInfo[j].move()
